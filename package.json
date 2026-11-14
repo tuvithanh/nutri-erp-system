@@ -1,0 +1,26 @@
+{
+  "name": "nutri-erp-system",
+  "version": "1.0.0",
+  "description": "Hệ thống ERP quản lý công ty thực phẩm bổ sung",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm run dev --prefix client",
+    "server": "npm run dev --prefix server",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuvithanh/nutri-erp-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tuvithanh/nutri-erp-system/issues"
+  },
+  "homepage": "https://github.com/tuvithanh/nutri-erp-system#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
