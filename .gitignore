@@ -144,3 +144,11 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Testing & Coverage scripts
+test-e2e.js
+server/test-e2e.js
+tests/
+coverage/
+*.test.js
+*.spec.js
